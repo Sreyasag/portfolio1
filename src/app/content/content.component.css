@@ -1,0 +1,16 @@
+.controls{
+    display: flex;
+    margin: 2rem 0 0 0;
+
+
+}
+.card1{
+    flex:1;
+    text-align:center;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    height: 25rem;
+}

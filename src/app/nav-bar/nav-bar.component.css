@@ -1,0 +1,24 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.title{
+   flex:1;
+   padding:0 1rem;
+   
+}
+
+.navLinks{
+    height: 2rem;
+    padding:0 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:2rem;
+}
+a{
+    text-decoration: none;
+}

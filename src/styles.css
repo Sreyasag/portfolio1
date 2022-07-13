@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+.card1{
+    padding: .7rem;
+    margin: .7rem;
+    border: 1px solid rgba(144, 144, 144, 0.443);
+    border-radius: .3rem;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.429)  ;
+}

@@ -1,0 +1,39 @@
+.landing{
+    height: 25rem;
+    display: flex;
+    align-items: center;
+}
+.title{
+    flex-basis: 40%;
+    padding: 0 7rem;
+}
+.stack{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+    width:8rem;
+    border: 1px solid grey;
+    border-radius: 50% ;
+}
+.mongo{
+    position: absolute;
+    top:20%;
+    right:60%;
+}
+.express{
+    position: absolute;
+    top:50%;
+    right:50%;
+}
+.angular{
+    position: absolute;
+    top:40%;
+    right:25%;
+}
+.node{
+    position: absolute;
+    top:30%;
+    right:10%;
+}
