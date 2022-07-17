@@ -1,39 +1,32 @@
 .landing{
-    height: 25rem;
+        /* height: 25rem; */
     display: flex;
     align-items: center;
+    justify-content: space-evenly ;
+    padding:3rem;
+        
 }
 .title{
-    flex-basis: 40%;
-    padding: 0 7rem;
+    flex: 1 1 30%;
+    
+    /* padding: 0 7rem; */
+}
+.stacks{  
+     flex: 1 1 40%;  
+     display:flex;
+     flex-wrap: wrap;
+     gap:3rem;
+     
 }
 .stack{
+    flex: 1 0 200px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 8rem;
-    width:8rem;
-    border: 1px solid grey;
-    border-radius: 50% ;
+    height: 10rem;
+    width:5rem;
+    border: 1px solid rgba(128, 128, 128, 0.593);
+    border-radius: .2rem ;
 }
-.mongo{
-    position: absolute;
-    top:20%;
-    right:60%;
-}
-.express{
-    position: absolute;
-    top:50%;
-    right:50%;
-}
-.angular{
-    position: absolute;
-    top:40%;
-    right:25%;
-}
-.node{
-    position: absolute;
-    top:30%;
-    right:10%;
-}
+

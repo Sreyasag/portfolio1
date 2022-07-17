@@ -1,7 +1,7 @@
 <div class="controls">
-    <div class="card1"><a href="">About</a></div>
-    <div class="card1"><a href="">Services</a></div>
-    <div class="card1"><a href="">Testimony</a></div>
+    <div class="card1" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact:true}"><a routerLink="">Services</a></div>
+    <div class="card1" [routerLinkActive]="'active'"><a routerLink="projects">Projects</a></div>
+    <div class="card1" [routerLinkActive]="'active'"><a routerLink="testimony">Testimony</a></div>
 </div>
 <div class="content card1">
     <router-outlet></router-outlet>
