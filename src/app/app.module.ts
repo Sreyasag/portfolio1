@@ -9,7 +9,10 @@ import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { ServicesComponent } from './content/services/services.component';
 import { TestimonyComponent } from './content/testimony/testimony.component';
-import { ProjectsComponent } from './content/projects/projects.component';
+import { ContactComponent } from './content/contact/contact.component';
+import { AboutComponent } from './about/about.component';
+import { ProjectComponent } from './project/project.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { ProjectsComponent } from './content/projects/projects.component';
     FooterComponent,
     ServicesComponent,
     TestimonyComponent,
-    ProjectsComponent
+    ContactComponent,
+    AboutComponent,
+    ProjectComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
