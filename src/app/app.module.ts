@@ -13,6 +13,7 @@ import { ContactComponent } from './content/contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectComponent } from './project/project.component';
 import { MainComponent } from './main/main.component';
+import { ProjCardComponent } from './project/proj-card/proj-card.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MainComponent } from './main/main.component';
     ContactComponent,
     AboutComponent,
     ProjectComponent,
-    MainComponent
+    MainComponent,
+    ProjCardComponent
   ],
   imports: [
     BrowserModule,

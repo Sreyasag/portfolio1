@@ -27,9 +27,13 @@
               "src/assets"
             ],
             "styles": [
+              "bootstrap/dist/css/bootstrap.css",
+              "aos/dist/aos.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "bootstrap/dist/js/bootstrap.bundle.js"
+            ]
           },
           "configurations": {
             "production": {

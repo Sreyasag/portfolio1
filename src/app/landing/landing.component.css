@@ -1,17 +1,33 @@
 .landing{
-        /* height: 25rem; */
+    /* height: 25rem; */
     display: flex;
     align-items: center;
     justify-content: space-evenly ;
-    padding:3rem;
+    padding:3% 12%;
         
 }
 .title{
     flex: 1 1 30%;
-    
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(76, 173, 253);
     /* padding: 0 7rem; */
 }
-.stacks{  
+.hello{
+    font-size: 7rem;
+}
+
+img{
+    width: 85%;
+    /* transition: right 7s;
+    transition-timing-function: ease-in-out; */
+}
+/* img:hover{
+    position: relative;
+    right:25%;
+} */
+
+/* .stacks{  
      flex: 1 1 40%;  
      display:flex;
      flex-wrap: wrap;
@@ -28,5 +44,5 @@
     width:5rem;
     border: 1px solid rgba(128, 128, 128, 0.593);
     border-radius: .2rem ;
-}
+} */
 

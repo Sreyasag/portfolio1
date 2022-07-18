@@ -1,4 +1,23 @@
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(14, 13, 15, 0.254);
+}   
 img{
-    height:200px;
-    width: 10px;
+    width: 300px;
+}
+
+p{
+    margin-right: 15%;
+    margin-left: 15%;
+    }
+.name{
+    font-weight: bold;
+}
+.carousel{
+    padding: 2%;
 }

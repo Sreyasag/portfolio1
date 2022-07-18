@@ -1,0 +1,23 @@
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card1{
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(128, 112, 248);
+    width:40%;
+    padding:4%;
+    margin: 5%;
+    flex:1 0 400px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap; */
+}
+
+img{
+    width: 150px;
+}

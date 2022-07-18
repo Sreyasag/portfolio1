@@ -1,0 +1,14 @@
+.proj{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.el{
+    flex:1 1 900px ;
+    text-align: center
+    ;
+}
+.card1{
+    padding: 5%;
+}

@@ -14,8 +14,11 @@ a{
     text-decoration: none;
 }
 .content{
-    height: 25rem;
+    /* height: 25rem; */
     margin-top: 0;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 }
 .active{
     /* background-color: rgba(191, 255, 255, 0.616); */

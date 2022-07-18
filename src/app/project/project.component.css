@@ -1,0 +1,8 @@
+.wrap{
+    display:flex;
+    flex-wrap: wrap;
+}
+app-proj-card{
+    flex:1 1 500px;
+
+}
