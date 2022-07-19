@@ -1,17 +1,19 @@
-.wrap{
+.card1{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap:5%;
-    padding: 3%;
+    padding: 5%;
 }
 
-.image{
-    height: 150px;
-    width: 150px;
+img{
+    height: 330px;
+    width: 330px;
     border-radius: 50%;
+    
 }
 .details{
     text-align: left;
 }
+

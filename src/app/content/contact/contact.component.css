@@ -7,10 +7,11 @@
     padding: 3%;
 }
 
-.image{
-    height: 150px;
-    width: 150px;
+img{
+    height: 330px;
+    width: 330px;
     border-radius: 50%;
+    
 }
 .details{
     text-align: left;
