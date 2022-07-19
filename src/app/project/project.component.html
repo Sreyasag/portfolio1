@@ -1,10 +1,7 @@
-<div class=" wrap">
-    <app-proj-card></app-proj-card>
-    <app-proj-card></app-proj-card>
-    <app-proj-card></app-proj-card>
-    <app-proj-card></app-proj-card>
-    <app-proj-card></app-proj-card>
-    <app-proj-card></app-proj-card>
-
-   
+<div class="wrap" >
+   <div class="el" *ngFor="let item of projects">
+    
+       <app-proj-card  [data]="item"></app-proj-card>
+   </div>
+      
 </div>

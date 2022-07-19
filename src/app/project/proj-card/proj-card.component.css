@@ -6,9 +6,12 @@
 }
 .el{
     flex:1 1 900px ;
-    text-align: center
-    ;
+    text-align: center;
 }
 .card1{
     padding: 5%;
+}
+a{
+    text-decoration: none;
+    color: black;
 }

@@ -1,8 +1,12 @@
 .wrap{
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-app-proj-card{
+.el{
     flex:1 1 500px;
 
 }
+
+
