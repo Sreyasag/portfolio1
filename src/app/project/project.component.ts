@@ -35,7 +35,20 @@ export class ProjectComponent implements OnInit {
       details:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat vero tenetur tempore itaque totam eum veniam, accusantium cumque ullam voluptas. Laboriosam, et reiciendis voluptatibus aut tempore magni animi dolores at.',
     },
-    
+    {
+      title: 'Project title',
+      image: 'f2.jpg',
+      link: ' ',
+      details:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat vero tenetur tempore itaque totam eum veniam, accusantium cumque ullam voluptas. Laboriosam, et reiciendis voluptatibus aut tempore magni animi dolores at.',
+    },
+    {
+      title: 'Project title',
+      image: 'f2.jpg',
+      link: ' ',
+      details:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat vero tenetur tempore itaque totam eum veniam, accusantium cumque ullam voluptas. Laboriosam, et reiciendis voluptatibus aut tempore magni animi dolores at.',
+    },
   ];
 
   constructor() {}
