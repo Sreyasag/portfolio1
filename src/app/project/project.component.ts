@@ -8,47 +8,34 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectComponent implements OnInit {
   projects = [
     {
-      title: 'Kerala Tourism',
-      image: 'f2.jpg',
+      title: 'BooksOcean : Library application',
+      image: 'book.png',
+      link: 'https://Sheltered-scrubland-59088.herokuapp.com',
+      details:
+        'Full stack MEAN application. Frontend using HTML, CSS and Javascript and Angular. Backend using Node, Express and MongoDB.',
+    },
+    {
+      title: 'Kerala Tourism website',
+      image: 'kerala.png',
       link: 'https://sreyasag.github.io/Kerala/',
       details:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat vero tenetur tempore itaque totam eum veniam, accusantium cumque ullam voluptas. Laboriosam, et reiciendis voluptatibus aut tempore magni animi dolores at.',
+        `Website for Kerala tourism. Academic project work, Frontend using HTML, CSS and Javascript`,
     },
     {
-      title: 'Todo App',
-      image: 'f2.jpg',
-      link: 'https://sreyasag.github.io/todo/todo.html',
+      title: 'ICTAK ID card generator application',
+      image: 'id.png',
+      link: 'https://Ictak-id-generaor.herokuapp.com ',
       details:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat vero tenetur tempore itaque totam eum veniam, accusantium cumque ullam voluptas. Laboriosam, et reiciendis voluptatibus aut tempore magni animi dolores at.',
+      'Full stack MEAN application for generating ID card for students. Frontend using Angular., Backend using Node, Express and MongoDB.',
     },
     {
-      title: 'Project title',
-      image: 'f2.jpg',
-      link: ' ',
+      title: 'Tour and campgrounds',
+      image: 'camp.png',
+      link: 'https://github.com/Sreyasag/campgrounds',
       details:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat vero tenetur tempore itaque totam eum veniam, accusantium cumque ullam voluptas. Laboriosam, et reiciendis voluptatibus aut tempore magni animi dolores at.',
+        'Server side rendered campground and tour guiding application using HTML, CSS, Javascript, Node, Express and MongoDB',
     },
-    {
-      title: 'Project title',
-      image: 'f2.jpg',
-      link: ' ',
-      details:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat vero tenetur tempore itaque totam eum veniam, accusantium cumque ullam voluptas. Laboriosam, et reiciendis voluptatibus aut tempore magni animi dolores at.',
-    },
-    {
-      title: 'Project title',
-      image: 'f2.jpg',
-      link: ' ',
-      details:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat vero tenetur tempore itaque totam eum veniam, accusantium cumque ullam voluptas. Laboriosam, et reiciendis voluptatibus aut tempore magni animi dolores at.',
-    },
-    {
-      title: 'Project title',
-      image: 'f2.jpg',
-      link: ' ',
-      details:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat vero tenetur tempore itaque totam eum veniam, accusantium cumque ullam voluptas. Laboriosam, et reiciendis voluptatibus aut tempore magni animi dolores at.',
-    },
+    
   ];
 
   constructor() {}
