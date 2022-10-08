@@ -1,12 +1,15 @@
-.wrap{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.el{
-    flex:1 1 500px;
 
+ .wrap{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 
+@media screen and (max-width: 600px){
+    .wrap{
+        display:grid;
+        grid-template-columns: 1fr;
+        
+    }
+    
+}

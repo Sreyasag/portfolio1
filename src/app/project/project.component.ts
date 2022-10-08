@@ -26,7 +26,7 @@ export class ProjectComponent implements OnInit {
       image: 'id.png',
       link: 'https://Ictak-id-generaor.herokuapp.com ',
       details:
-      'Full stack MEAN application for generating ID card for students. Frontend using Angular., Backend using Node, Express and MongoDB.',
+      'Full stack MEAN application for generating ID card for students. Frontend using Angular., Backend using Node, Express and MongoDB. ( Login credentials - username:admin, password: test1234 - username:batchmanager@test.com, password:test1234 ',
     },
     {
       title: 'Tour and campgrounds',
