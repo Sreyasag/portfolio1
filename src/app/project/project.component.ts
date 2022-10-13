@@ -12,7 +12,7 @@ export class ProjectComponent implements OnInit {
       image: 'linkedin.png',
       link: 'https://linkedin-clone-fd3dc.web.app',
       details:
-        'LinkedIn clone.Technologies used HTML, CSS and Javascript, React and firebase.',
+        'LinkedIn clone.Technologies used: HTML, CSS, Javascript, React and firebase.',
     },
     {
       title: 'BooksOcean : Library application',

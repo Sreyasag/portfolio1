@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import * as AOS  from 'aos' ;
 
 @Component({
   selector: 'app-proj-card',
@@ -12,6 +13,7 @@ export class ProjCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    AOS.init();
   }
 
 }
