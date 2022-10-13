@@ -9,7 +9,7 @@ export class ProjectComponent implements OnInit {
   projects = [
     {
       title: 'LinkedIn clone',
-      image: '',
+      image: 'linkedin.png',
       link: 'https://linkedin-clone-fd3dc.web.app',
       details:
         'LinkedIn clone.Technologies used HTML, CSS and Javascript, React and firebase.',
