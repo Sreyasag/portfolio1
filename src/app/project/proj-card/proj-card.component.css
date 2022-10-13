@@ -1,3 +1,6 @@
+:host{
+    display: flex;
+}
 .proj{
     display: flex;
     flex-wrap: wrap;
