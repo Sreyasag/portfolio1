@@ -24,7 +24,7 @@ export class ProjectComponent implements OnInit {
     {
       title: 'ICTAK ID card generator application',
       image: 'id.png',
-      link: 'https://Ictak-id-generaor.herokuapp.com ',
+      link: 'https://Ictak-id-generaor.herokuapp.com',
       details:
       'Full stack MEAN application for generating ID card for students. Frontend using Angular., Backend using Node, Express and MongoDB. ( Login credentials - username:admin, password: test1234 - username:batchmanager@test.com, password:test1234 ',
     },
@@ -42,7 +42,13 @@ export class ProjectComponent implements OnInit {
       details:
         'Server side rendered campground and tour guiding application using HTML, CSS, Javascript, Node, Express and MongoDB',
     },
-    
+    {
+      title: 'Simple blogs application',
+      image: 'blog.png',
+      link: 'https://simple-blog12.herokuapp.com',
+      details:
+      'MERN stack application. Frontend using React. Backend using Node, Express and MongoDB.',
+    },
   ];
 
   constructor() {}
